@@ -5,6 +5,7 @@ ENV TZ=Asia/Tokyo
 
 # Node.jsとnpmをインストール
 RUN apt-get update && apt-get install -y nodejs npm
+RUN npm install vue
 
 # 作業ディレクトリを設定
 WORKDIR /app

@@ -9,6 +9,6 @@ func main() {
 
 	f := model.Sum(1, 2)
 	fmt.Println(f)
-	fmt.Println("ssdddsss")
+	fmt.Println("ssddddddsss")
 
 }
